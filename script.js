@@ -1,13 +1,13 @@
 const products = [
     {
-        name: "Product 1",
-        image: "https://via.placeholder.com/150",
-        link: "https://affiliate-link-1.com",
+        name: "ZEBRONICS Thunder Bluetooth 5.3 Wireless Over ear Headphone",
+        image: "https://m.media-amazon.com/images/I/41mkKnWxMCL._SX300_SY300_QL70_FMwebp_.jpg",
+        link: "https://amzn.to/46cBzpM",
     },
     {
-        name: "Product 2",
-        image: "https://via.placeholder.com/150",
-        link: "https://affiliate-link-2.com",
+        name: "V2A Chronograph Analogue and Digital Sports Watch for Men",
+        image: "https://m.media-amazon.com/images/I/71EcGgX9miL._SY879_.jpg",
+        link: "https://amzn.to/46epbWk",
     },
     {
         name: "Product 3",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         productElement.classList.add("product");
         productElement.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
+            <h4>${product.name}</h4>
             <a href="${product.link}" target="_blank" class="buy-link">Buy Now</a>
         `;
         productsContainer.appendChild(productElement);
