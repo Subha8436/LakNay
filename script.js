@@ -17,6 +17,18 @@ const products = [
         price: "₹299",
         link: "https://amzn.to/4fa7mMf",
     },
+    {
+        name: "Noise Twist Round dial Smart Watch",
+        image: "https://m.media-amazon.com/images/I/41wp3NoyIXL._SX300_SY300_QL70_FMwebp_.jpg",
+        price: "₹1299",
+        link: "https://amzn.to/3Wvvp0O",
+    },
+{
+        name: "Noise Force Rugged & Sporty 1.32" Bluetooth Calling Smart Watch",
+        image: "https://m.media-amazon.com/images/I/614pTKzcPiL._SX679_.jpg",
+        price: "₹1499",
+        link: "https://amzn.to/4dvEX1F",
+    },
 ];
 
 let rewardPoints = 0;
