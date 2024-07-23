@@ -6,12 +6,95 @@ body {
     color: #333;
 }
 
+#loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #6c5ce7;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 header {
     background-color: #6c5ce7;
     color: white;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #6c5ce7;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+
+nav .dropdown li {
+    display: block;
+}
+
+nav .dropdown li a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.search-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
 main {
@@ -58,6 +141,12 @@ main {
     color: #2d3436;
 }
 
+.product .price {
+    font-size: 1.1em;
+    color: #27ae60;
+    margin: 10px 0;
+}
+
 .product .buy-link {
     display: inline-block;
     background-color: #6c5ce7;
@@ -85,4 +174,4 @@ main {
     font-size: 1.5em;
     font-weight: bold;
     color: #6c5ce7;
-}
+        }
