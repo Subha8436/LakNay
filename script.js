@@ -1,45 +1,64 @@
 const products = [
     {
-        name: "ZEBRONICS Thunder Bluetooth 5.3 Wireless Over ear Headphone",
-        image: "https://m.media-amazon.com/images/I/41mkKnWxMCL._SX300_SY300_QL70_FMwebp_.jpg",
+        name: "ZEBRONICS Thunder Bluetooth 5.3 Wireless Over ear Headphones",
+        image: "https://m.media-amazon.com/images/I/61smYWXWx9L._SL1500_.jpg",
+        price: "₹698",
         link: "https://amzn.to/46cBzpM",
     },
     {
-        name: "V2A Chronograph Analogue and Digital Sports Watch for Men",
-        image: "https://m.media-amazon.com/images/I/71EcGgX9miL._SY879_.jpg",
+        name: "SKMEI Men's Digital Sports Watch",
+        image: "https://m.media-amazon.com/images/I/61A8Y+BMLXL._SX679_.jpg",
+        price: "₹499",
         link: "https://amzn.to/46epbWk",
     },
     {
-        name: "Product 3",
-        image: "https://via.placeholder.com/150",
-        link: "https://affiliate-link-3.com",
-    },
-        {
-        name: "Product 4",
-        image: "https://via.placeholder.com/150",
-        link: "https://affiliate-link-4.com",
+        name: "TIMEWEAR Analog Day Date Functioning Stainless Steel Chain Watch for Men",
+        image: "https://m.media-amazon.com/images/I/81nj6IlZpVL._SY879_.jpg",
+        price: "₹299",
+        link: "https://amzn.to/4fa7mMf",
     },
 ];
 
 let rewardPoints = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
-    const productsContainer = document.getElementById("products");
-    products.forEach((product, index) => {
-        const productElement = document.createElement("div");
-        productElement.classList.add("product");
-        productElement.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <h4>${product.name}</h4>
-            <a href="${product.link}" target="_blank" class="buy-link">Buy Now</a>
-        `;
-        productsContainer.appendChild(productElement);
-    });
+    const loadingScreen = document.getElementById("loading-screen");
+    setTimeout(() => {
+        loadingScreen.style.display = "none";
+    }, 2000);
 
-    document.querySelectorAll('.buy-link').forEach(link => {
-        link.addEventListener('click', () => {
-            rewardPoints += 10; // Add 10 points for each purchase
-            document.getElementById('rewardPoints').innerText = `Reward Points: ${rewardPoints}`;
+    const productsContainer = document.getElementById("products");
+    const searchBar = document.getElementById("search-bar");
+
+    function displayProducts(productsToDisplay) {
+        productsContainer.innerHTML = "";
+        productsToDisplay.forEach((product) => {
+            const productElement = document.createElement("div");
+            productElement.classList.add("product");
+            productElement.innerHTML = `
+                <img src="${product.image}" alt="${product.name}">
+                <h3>${product.name}</h3>
+                <p class="price">${product.price}</p>
+                <a href="${product.link}" target="_blank" class="buy-link">Buy Now</a>
+            `;
+            productsContainer.appendChild(productElement);
         });
+
+        document.querySelectorAll('.buy-link').forEach(link => {
+            link.addEventListener('click', () => {
+                rewardPoints += 10; // Add 10 points for each purchase
+                document.getElementById('rewardPoints').innerText = `Reward Points: ${rewardPoints}`;
+            });
+        });
+    }
+
+    displayProducts(products);
+
+    searchBar.addEventListener("input", (e) => {
+        const searchText = e.target.value.toLowerCase();
+        const filteredProducts = products.filter(product =>
+            product.name.toLowerCase().includes(searchText)
+        );
+        displayProducts(filteredProducts);
     });
 });
