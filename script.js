@@ -1,5 +1,11 @@
 const products = [
     {
+        name: "Wireless Gaming Sports Headphones Stereo With SD Card & 5-6h Battery Backup",
+        image: "https://rukminim1.flixcart.com/image/750/750/xif0q/headphone/6/y/s/wireless-gaming-sports-headphones-stereo-with-sd-card-5-6h-original-imah2d78vufdgmtq.jpeg?q=20&crop=false",
+        price: "₹299",
+        link: "https://www.shopsy.in/wireless-gaming-sports-headphones-stereo-sd-card-5-6h-battery-backupwe353-bluetooth-headset/p/itm0570f5a5f8a24?pid=XHOH2D8FMM7UGDX2&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.8c49aef3-cb60-4724-897a-c11cac49d9f8.XHOH2D8FMM7UGDX2&_appId=CL",
+    },
+    {
         name: "ZEBRONICS Thunder Bluetooth 5.3 Wireless Over ear Headphones",
         image: "https://m.media-amazon.com/images/I/61smYWXWx9L._SL1500_.jpg",
         price: "₹698",
@@ -28,12 +34,6 @@ const products = [
         image: "https://m.media-amazon.com/images/I/614pTKzcPiL._SX679_.jpg",
         price: "₹1499",
         link: "https://amzn.to/4dvEX1F",
-    },
-    {
-        name: "Wireless Gaming Sports Headphones Stereo With SD Card & 5-6h Battery Backup",
-        image: "https://rukminim1.flixcart.com/image/750/750/xif0q/headphone/6/y/s/wireless-gaming-sports-headphones-stereo-with-sd-card-5-6h-original-imah2d78vufdgmtq.jpeg?q=20&crop=false",
-        price: "₹299",
-        link: "https://www.shopsy.in/wireless-gaming-sports-headphones-stereo-sd-card-5-6h-battery-backupwe353-bluetooth-headset/p/itm0570f5a5f8a24?pid=XHOH2D8FMM7UGDX2&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.8c49aef3-cb60-4724-897a-c11cac49d9f8.XHOH2D8FMM7UGDX2&_appId=CL",
     },
 ];
 
