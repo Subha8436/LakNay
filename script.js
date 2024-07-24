@@ -11,6 +11,18 @@ const products = [
         price: "₹698",
         link: "https://amzn.to/46cBzpM",
     },
+        {
+        name: "Black Day and Date Analog Watch",
+        image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/watch/x/v/p/1-eh-226-bk-eddy-hager-men-original-imahfqyqhgbtwmwu.jpeg?q=20&crop=false",
+        price: "₹278",
+        link: "https://www.shopsy.in/black-day-date-analog-watch-men/p/itme0a11754184c4?pid=XWWG9G9RRPHHYJS9&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.b6f0d275-a6a7-4318-b330-9a9784d8ee35.XWWG9G9RRPHHYJS9&_appId=CL",
+    },
+    {
+        name: "CheckBlueRay0507 Day And Date Functioning Mens and Boys Solitary Blue Dial Unique Pattern New Latest Trendy Stylish Analog Watch",
+        image: "https://rukminim1.flixcart.com/image/850/1050/kcxpbww0/watch/e/w/j/checkblueray0507-espoir-original-imafty4ujpfwj3dv.jpeg?q=20&crop=false",
+        price: "₹311",
+        link: "https://www.shopsy.in/checkblueray0507-day-date-functioning-mens-boys-solitary-blue-dial-unique-pattern-new-latest-trendy-stylish-analog-watch-men/p/itm8e4e528ea66a5?pid=XWWG8TM7HHUSQYBG&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.80b73f15-af30-49fa-98da-85b7a379a224.XWWG8TM7HHUSQYBG&_appId=CL",
+    },
     {
         name: "SKMEI Men's Digital Sports Watch",
         image: "https://m.media-amazon.com/images/I/61A8Y+BMLXL._SX679_.jpg",
