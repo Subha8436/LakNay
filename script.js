@@ -1,5 +1,29 @@
 const products = [
     {
+        name: "Color Block Men Multicolor, Black, White",
+        image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/shopsy-t-shirt/x/c/e/l-round-neck-farrowx-original-imagpycsz539myzs.jpeg?q=20&crop=false",
+        price: "₹175",
+        link: "https://www.shopsy.in/color-block-men-multicolor-black-white-t-shirt/p/itm24a036cb5eaa9?pid=XPTGPYCSEFYY7EW9&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.b9925eb7-e8b5-46c1-9100-7e0bd55e0b68.XPTGPYCSEFYY7EW9&_appId=CL",
+    },
+    {
+        name: "Self Design Men Black Track Pants",
+        image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/shopsy-track-pant/x/f/e/xxl-spy-l15-cut-rusksun-original-imah2vuw4byyhnzs.jpeg?q=20&crop=false",
+        price: "₹159",
+        link: "https://www.shopsy.in/self-design-men-black-track-pants/p/itm6701125575175?pid=XTPGXYBRW4SGFTJY&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.fd0d35ba-656a-48eb-a094-1ad9b8e96250.XTPGXYBRW4SGFTJY&_appId=CL",
+    },
+    {
+        name: "Men Checkered Formal Grey Shirt",
+        image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/shopsy-shirt/8/h/g/xxl-s-check-grey-rodeiz-original-imah3etwyqfpzrts.jpeg?q=20&crop=false",
+        price: "₹269",
+        link: "https://www.shopsy.in/men-checkered-formal-grey-shirt/p/itm063bd772e8e16?pid=XSRGYR8DZSRTDZFZ&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.196400c6-29e1-4d95-b526-e2124fdcfd2d.XSRGYR8DZSRTDZFZ&_appId=CL",
+    },
+    {
+        name: "Avio Lather buy 1 get 1 FREE Analog Watch  - For Men",
+        image: "https://rukminim1.flixcart.com/image/850/850/xif0q/shopsy-watch/c/q/c/2-buy-1-get-1-free-daniel-radcliffe-men-original-imagzgk7ssvpfafu.jpeg?q=20&crop=false",
+        price: "₹219",
+        link: "https://www.shopsy.in/avio-lather-buy-1-get-free-analog-watch-men/p/itm421fe24306bed?pid=XWWGZGK7AJBSZ9E3&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.043bf58e-185b-49ea-87f3-f420411c921d.XWWGZGK7AJBSZ9E3&_appId=CL",
+    },
+    {
         name: "NIKE Mercurial Vapor 16 Club MG Football Shoes For Me",
         image: "https://rukminim1.flixcart.com/image/750/900/xif0q/shoe/8/c/q/6-fq8441-400-6-nike-glacier-blue-blue-orbit-original-imah2zdyz4csv8g6.jpeg?q=20&crop=false",
         price: "₹4990",
