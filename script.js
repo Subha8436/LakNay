@@ -42,12 +42,12 @@ const products = [
         link: "https://www.shopsy.in/wireless-gaming-sports-headphones-stereo-sd-card-5-6h-battery-backupwe353-bluetooth-headset/p/itm0570f5a5f8a24?pid=XHOH2D8FMM7UGDX2&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.8c49aef3-cb60-4724-897a-c11cac49d9f8.XHOH2D8FMM7UGDX2&_appId=CL",
     },
     {
-        name: "ZEBRONICS Thunder Bluetooth 5.3 Wireless Over ear Headphones",
-        image: "https://m.media-amazon.com/images/I/61smYWXWx9L._SL1500_.jpg",
-        price: "₹698",
-        link: "https://amzn.to/46cBzpM",
+        name: "Ultrapods 20 Wireless Earbuds Comes with transperant case Digital Display Bluetooth Headset",
+        image: "https://rukminim1.flixcart.com/image/750/900/xif0q/shopsy-headphone/8/f/6/bluetooth-yes-ultrapods-20-wireless-earbuds-comes-with-original-imah4ggkt2hpbbtn.jpeg?q=20&crop=false",
+        price: "₹299",
+        link: "https://www.shopsy.in/ultrapods-20-wireless-earbuds-comes-transperant-case-digital-display-bluetooth-headset/p/itmabddbfa20d8ac?pid=XHOH2ATFG5TQVAQW&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.abd1a4f4-1aa5-4d85-871e-2cb8a23ba007.XHOH2ATFG5TQVAQW&_appId=CL",
     },
-        {
+    {
         name: "Black Day and Date Analog Watch",
         image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/watch/x/v/p/1-eh-226-bk-eddy-hager-men-original-imahfqyqhgbtwmwu.jpeg?q=20&crop=false",
         price: "₹278",
