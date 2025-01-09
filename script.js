@@ -1,5 +1,17 @@
 const products = [
     {
+        name: "Men & Women Solid Low Cut (Pack of 3)",
+        image: "https://rukminim2.flixcart.com/image/1200/1385/xif0q/sock/o/r/c/free-3-loafer-plain-303-fabdon-original-imah2yhnfvm7uzry.jpeg?q=60&crop=false",
+        price: "₹100",
+        link: "https://www.shopsy.in/fabdon-men-women-solid-low-cut/p/itm7b3611cf624f7?pid=SOCFES3DZSR8BMSR&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.aa3874a7-4826-4e1d-b8b3-d10c76a71810.SOCFES3DZSR8BMSR&_appId=CL",
+    },
+    {
+        name: "Self Design Men Black, Grey Track Pants",
+        image: "https://rukminim2.flixcart.com/image/1200/1385/xif0q/shopsy-track-pant/8/5/d/32-sports-logo-lower-leemak-original-imah44fzcftqzz7n.jpeg?q=60&crop=false",
+        price: "₹149",
+        link: "https://www.shopsy.in/self-design-men-black-grey-track-pants/p/itmb17ee4c27b9ce?pid=XTPH3XVRDAZKHZHV&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.b568d0c8-1504-4a38-a9da-e4df412dae4d.XTPH3XVRDAZKHZHV&_appId=CL",
+    },
+    {
         name: "Color Block Men Multicolor, Black, White",
         image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/shopsy-t-shirt/x/c/e/l-round-neck-farrowx-original-imagpycsz539myzs.jpeg?q=20&crop=false",
         price: "₹175",
