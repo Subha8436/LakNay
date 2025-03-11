@@ -12,6 +12,18 @@ const products = [
         link: "https://www.shopsy.in/self-design-men-black-grey-track-pants/p/itmb17ee4c27b9ce?pid=XTPH3XVRDAZKHZHV&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.b568d0c8-1504-4a38-a9da-e4df412dae4d.XTPH3XVRDAZKHZHV&_appId=CL",
     },
     {
+        name: "Self Design Paithani Art Silk Saree (White)",
+        image: "https://rukminim2.flixcart.com/image/1200/1385/xif0q/sari/w/i/p/free-self17d10new-desirable-south-indian-bengali-creative-luxury-original-imahfgvkpadqhcgt.jpeg?q=60&crop=false",
+        price: "₹ 249",
+        link: "https://www.shopsy.in/self-design-paithani-art-silk-saree/p/itmd209c23162689?pid=XPSG9GGNNK2XA3G9&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.77eaf4fe-a3ad-4275-96ca-1741e7e890f7.XPSG9GGNNK2XA3G9&_appId=CL",
+    },
+    {
+        name: "Woven Banarasi Art Silk Saree (Magenta)",
+        image: "https://rukminim2.flixcart.com/image/1200/1385/xif0q/sari/t/y/u/free-kp-56-starliner-unstitched-original-imaghz57hdqxcq68.jpeg?q=60&crop=false",
+        price: "₹429",
+        link: "https://www.shopsy.in/woven-banarasi-art-silk-saree/p/itmd3f0e9be73d55?pid=XPSGNKVH7TUZXFBK&affid=inf_58a05c12-d91e-4903-a5e5-fb790385d6e6&cmpid=product.share.pp&_refId=PP.90955527-e69f-4dac-8e8f-655e04c81dd8.XPSGNKVH7TUZXFBK&_appId=CL",
+    },
+    {
         name: "Color Block Men Multicolor, Black, White",
         image: "https://rukminim1.flixcart.com/image/850/1050/xif0q/shopsy-t-shirt/x/c/e/l-round-neck-farrowx-original-imagpycsz539myzs.jpeg?q=20&crop=false",
         price: "₹175",
@@ -117,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
                 <p class="price">${product.price}</p>
-                <a href="${product.link}" target="_blank" class="buy-link">Buy Now</a>
+                <a href="${product.link}" target="_blank" class="buy-link">More</a>
             `;
             productsContainer.appendChild(productElement);
         });
