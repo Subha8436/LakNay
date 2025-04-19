@@ -68,7 +68,7 @@ nav ul li:hover .dropdown {
 nav .dropdown {
     display: none;
     position: absolute;
-    background-color: #6c5ce7;
+    background-color: #42bda3;
     border-radius: 5px;
     top: 100%;
     left: 0;
